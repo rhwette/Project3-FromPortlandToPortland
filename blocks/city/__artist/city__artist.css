@@ -1,0 +1,26 @@
+.city__artist {
+  grid-area: artist;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 48px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .city__artist {
+    margin-left: 0px;
+    padding-bottom: 46px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city__artist {
+    /* there is both m-b and p-b which
+    causes the gap to be too big*/
+    /*to fix, remove m-b and 
+    reset p-b from 48 px to 30px */
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
+    margin-left: 16px;
+  }
+}

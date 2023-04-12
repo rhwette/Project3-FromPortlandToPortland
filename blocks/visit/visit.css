@@ -1,0 +1,66 @@
+.visit {
+  width: 100%;
+  /*change max width to 1184*/
+  /* max-width: 1280px; */
+  /* and add m-l m-r = 48px */
+  background-size: cover;
+  max-width: 92.5vw;
+  /* min-width: 664px; */
+  /* remove margins l and r */
+  margin-left: 3.75vw;
+  margin-right: 3.75vw;
+  /* min-height: 740px; */
+  /* min-height: 96.3554vw; */
+  min-height: 57.8125vw;
+  position: relative;
+  margin-top: 92px;
+  margin-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Inter", Arial, sans-serif;
+  color: #FFF;
+}
+
+.visit::before {
+  content: "";
+  background-image: url("../../images/Visit-Us.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  opacity: .7;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width: auto;
+  max-width: auto;
+}
+
+.visit:hover::before {
+  opacity: .2;
+  }
+
+@media screen and (max-width: 768px) {
+  .visit {
+    /* max-width: 768px; */
+    max-width: 100.0013vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height: 97.1367vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .visit {
+    /* max-width: 320px; */
+    max-width: 100vw;
+    /* min-height: 254px; */
+    min-height: 79.375vw;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+}

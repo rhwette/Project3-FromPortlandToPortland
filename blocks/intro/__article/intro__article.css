@@ -1,0 +1,21 @@
+.intro__article {
+  width: 100%;
+  max-width: 720px;
+  margin: 32px 65px 0px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.08px;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px){
+  .intro__article {
+    margin: 32px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .intro__article {
+    max-width: 288px;
+  }
+}

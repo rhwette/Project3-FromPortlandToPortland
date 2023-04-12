@@ -1,0 +1,19 @@
+.cities {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0;
+}
+
+@media screen and (max-width:768px) {
+  .cities {
+    width: 100%;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cities {
+      width: 100%;
+      max-width: 320px;
+  }
+}

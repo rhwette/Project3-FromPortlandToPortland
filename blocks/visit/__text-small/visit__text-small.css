@@ -1,0 +1,25 @@
+.visit__text-small {
+  width: 100%;
+  max-width: 280px;
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .visit__text-small {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .visit__text-small {
+    /* min-height: 48px; */
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+  }
+}

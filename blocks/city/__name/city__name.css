@@ -1,0 +1,39 @@
+.city__name {
+  width: 100%;
+  align-content:flex-start;
+  max-width: 300px;
+  padding-bottom: 48px;
+  padding-left: 3px;
+  font-size: 5.616vw;
+  line-height: 5.928vw;
+  font-weight: 900;
+  font-style: normal;
+  color: #FFF;
+  margin: 0;
+  grid-area: name;
+}
+
+@media screen and (max-width: 768px) {
+  .city__name {
+    align-content: end;
+    height: 46px;
+    max-width: 340px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    font-size: 5.46vw;
+    line-height: 5.98vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city__name {
+    justify-content: end;
+    max-width: 288px;
+    font-size: 10vw;
+    line-height: 10.938vw;
+    margin-left: 16px;
+    padding-bottom: 0px;
+    min-height: 35px;
+  }
+}
